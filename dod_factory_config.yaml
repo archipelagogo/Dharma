@@ -1,0 +1,14 @@
+training_data:
+  local_path: "local_training_data.csv"
+
+generation:
+  examples_per_domain: 1
+  quality_threshold: 0.1
+  diversity_threshold: 0.1
+  max_retries: 5
+
+classifier:
+  kernel: "linear"
+  C: 1.0
+  gamma: "scale"
+  test_size: 2
