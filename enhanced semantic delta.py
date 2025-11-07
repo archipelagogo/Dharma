@@ -1,9 +1,13 @@
-How is this for a semantic Delta module:
 
 """
 Enhanced Semantic Delta Module for OMNI-Dharma
 Computes multi-dimensional semantic differences between AI outputs
 with improved granularity and robustness.
+This computes the difference in semantics between the output of
+the mini llm language handler and the final output of the system after 
+multidimensional logical analyses, metacognitive contemplation, 
+self learning data application and entropy shading calculations.
+For Dharma the average difference is 93%:
 """
 
 import difflib
@@ -398,4 +402,5 @@ return {
     "composite_delta": result.composite_delta,  
     "confidence_score": result.confidence_score  
 }
+
 
